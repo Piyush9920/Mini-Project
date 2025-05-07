@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Ingole - Student Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .photo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+            height: 150px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 20px;
+            margin-left: 120px; /* Add space for the photo */
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .education-item, .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .date {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e8f5e9;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .photo {
+                position: static;
+                display: block;
+                margin: 0 auto 15px;
+            }
+            
+            header {
+                margin-left: 0;
+                text-align: center;
+            }
+            
+            .skills-list {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Passport size photo -->
+        <img src="piyush iii.jfif" alt="Piyush Ingole Photo" class="photo">
+        
+        <header>
+            <h1>Piyush Dnyaneshwar Ingole</h1>
+            <p>Computer Science Student (AIML Specialization)</p>
+            <div class="contact-info">
+                <p>Email: piyush.ingole@example.com | Phone: (123) 456-7890</p>
+                <p>PRPCEM: <a href="https://prpotepatilengg.ac.in/" target="_blank">prpcem.com/piyush-ingole</a> | LinkedIn: <a href="https://www.linkedin.com/in/piyush-ingole-6b0318338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm" target="_blank">linkedin.com/in/piyush-ingole</a></p>
+            </div>
+        </header>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science (AIML)</h3>
+                <p class="date">2022 - 2026 (Expected)</p>
+                <p>ML University, Roll Number: MLU24F115</p>
+                <p><strong>Relevant Coursework:</strong> Machine Learning, Data Structures, Algorithms, Web Development, Database Systems</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <span class="skill">HTML/CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">OOP</span>
+                <span class="skill">Java</span>
+                <span class="skill">Machine Learning</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Web Development Practical Project</h3>
+                <p>A comprehensive website demonstrating HTML, CSS, and JavaScript skills including forms, tables, and DOM manipulation.</p>
+                <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="project-item">
+                <h3>Machine Learning Model for Image Classification</h3>
+                <p>Developed a CNN model to classify images from the CIFAR-10 dataset with 85% accuracy.</p>
+                <p><strong>Technologies:</strong> Python, TensorFlow, Keras</p>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Recipient of Academic Excellence Scholarship 2023</li>
+                <li>Recently pass out 1st sem</li>
+                <li>Certified in java Programming </li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Web Development Intern</h3>
+                <p class="date">Summer 2023</p>
+                <p>Tech Solutions Inc.</p>
+                <ul>
+                    <li>Assisted in developing and maintaining company websites</li>
+                    <li>Implemented responsive design for mobile compatibility</li>
+                    <li>Collaborated with team members making code using Ai</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <table>
+                <tr>
+                    <th>Certification</th>
+                    <th>Issuing Organization</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Web Development Bootcamp</td>
+                    <td>Eduskill</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Machine Learning Fundamentals</td>
+                    <td>NPTEL</td>
+                    <td>2022</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Me</h2>
+            <form onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="4" style="width:100%" required></textarea><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <script>
+        function validateForm() {
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let message = document.getElementById('message').value;
+            
+            alert(Thank you ${name}! Your message has been received. I'll contact you at ${email} soon.);
+            return false; // Prevent form submission for demo
+        }
+
+        // Dynamic current year in footer
+        document.addEventListener('DOMContentLoaded', function() {
+            const year = new Date().getFullYear();
+            const footer = document.createElement('footer');
+            footer.style.textAlign = 'center';
+            footer.style.marginTop = '30px';
+            footer.style.color = '#666';
+            footer.innerHTML = <p>&copy; ${year} Piyush Ingole. All rights reserved.</p>;
+            document.body.appendChild(footer);
+        });
+    </script>
+</body>
+</html>
